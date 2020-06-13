@@ -5,6 +5,6 @@
 
 Name | Repository
 --------- | ------:
-Facebook comments | [Open](https://github.com/gustavoSoriano/Puppeteer-Examples)
-Whatsapp message | [Open](https://github.com/gustavoSoriano/Puppeteer-Examples)
-Screenshot | [Open](https://github.com/gustavoSoriano/Puppeteer-Examples)
+Facebook comments | [Open](https://github.com/gustavoSoriano/Puppeteer-Examples/tree/master/facebook-comments)
+Whatsapp message | [Open](https://github.com/gustavoSoriano/Puppeteer-Examples/tree/master/pupteer-message)
+Screenshot | [Open](https://github.com/gustavoSoriano/Puppeteer-Examples/tree/master/screenshot)
