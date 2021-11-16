@@ -9,7 +9,7 @@ const Awating = async (page, element, message) => {
 }
 
 async function Run() {
-  const browser = await puppeteer.launch({args: ['--no-sandbox'], headless: false})
+  const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-notifications'], headless: false})
   const page    = await browser.newPage()
 
   await page.setViewport({ width: 0, height: 0 })
