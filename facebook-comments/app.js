@@ -8,7 +8,7 @@ const credentials = {
 }
 
 const Run = async () => {
-    const navegador = await puppeteer.launch({args: ['--no-sandbox'], headless: false})
+    const navegador = await puppeteer.launch({args: ['--no-sandbox', '--disable-notifications'], headless: false})
     const pagina    = await navegador.newPage() 
     await pagina.goto(`https://www.facebook.com/`)
     await Pause(3000)
